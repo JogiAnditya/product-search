@@ -4,7 +4,7 @@ const search = () => {
     const product = document.querySelectorAll(".product");
     const pName = storeItems.getElementsByTagName("h2");
 
-    for(var i=0; i < pName.length; i++) {
+    for(var i = 0; i < pName.length; i++) {
         let match = product[i].getElementsByTagName('h2')[0];
 
         if (match) {
